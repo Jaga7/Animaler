@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "906422966115",
+    "project_id": "myproject-6100a",
+    "storage_bucket": "myproject-6100a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906422966115:android:b7c728d20ad190883ba556",
+        "android_client_info": {
+          "package_name": "com.animaler.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906422966115-1iul1bpi72il90u11gsp2cngjrib2icj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4bDAYis5cjYF25TPwPOQY8VgNtnqRfdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906422966115-1iul1bpi72il90u11gsp2cngjrib2icj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
