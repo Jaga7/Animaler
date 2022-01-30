@@ -10,10 +10,11 @@ class ModelUserData {
 
   final String? uid;
   final String name;
-  final String sugars;
-  final int strength;
+  final String gender;
+  final String bio;
+  final String profilePictureUrl;
 
-  ModelUserData({ this.uid, required this.name, required this.sugars, required this.strength });
+  ModelUserData({ this.uid, required this.name, required this.gender, required this.bio, required this.profilePictureUrl });
 
 // final String sugars;
 //   final int strength;

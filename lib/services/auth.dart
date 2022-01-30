@@ -1,6 +1,7 @@
 import 'package:flutter_application_1/models/user.dart';
 import 'package:flutter_application_1/services/database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter_application_1/services/storage.dart';
 
 class AuthService {
 
@@ -49,12 +50,14 @@ class AuthService {
   }
 
   // register with email and password
-  Future registerWithEmailAndPassword(String email, String password) async {
+  Future registerWithEmailAndPassword(String email, String password, String name, String gender, String bio) async {
     try {
       UserCredential result = await _auth.createUserWithEmailAndPassword(email: email, password: password);
       User? user = result.user;
       // create a new document for the user with the uid
-      await DatabaseService(uid: user!.uid).updateModelUserData('0','new crew member', 100);
+      var noPictureUrl = await DatabaseService(uid: user!.uid).storage.ref().child("no_picture.png").getDownloadURL();
+      noPictureUrl = noPictureUrl.toString();
+      await DatabaseService(uid: user!.uid).updateModelUserData(name, gender, bio, noPictureUrl);
       return _userFromFirebaseUser(user);
     } catch (error) {
       print(error.toString());

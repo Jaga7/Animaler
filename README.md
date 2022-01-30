@@ -1,8 +1,10 @@
+# flutter_application_1
 
-
-Version of NetNinja's "Brew Crew" project, that's compatible with flutter's null-safety and new firebase libraries method/variable names.
+A new Flutter project.
 
 ## Getting Started
+
+This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 

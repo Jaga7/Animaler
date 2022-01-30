@@ -1,9 +1,10 @@
 class Brew {
 
   final String name;
-  final String sugars;
-  final int strength;
+  final String gender;
+  final String bio;
+  final String profilePictureUrl;
 
-  Brew({ required this.name, required this.sugars, required this.strength });
+  Brew({ required this.name, required this.gender, required this.bio, required this.profilePictureUrl });
 
 }

@@ -3,6 +3,7 @@ import 'package:flutter_application_1/shared/constants.dart';
 import 'package:flutter_application_1/shared/loading.dart';
 import 'package:flutter/material.dart';
 
+
 class SignIn extends StatefulWidget {
 
   final Function toggleView;

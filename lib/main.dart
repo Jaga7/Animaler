@@ -4,6 +4,7 @@ import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter_application_1/screens/wrapper.dart';
 import 'package:flutter_application_1/services/auth.dart';
 import 'package:flutter/material.dart';
@@ -40,7 +41,7 @@ Future _connectToFirebaseEmulator () async  {
   );
 
   FirebaseFirestore.instance.useFirestoreEmulator(localHostString, 8080);
-
+  FirebaseStorage.instance.useStorageEmulator(localHostString, 9199);
   await FirebaseAuth.instance.useAuthEmulator(localHostString, 9099);
 }
 
