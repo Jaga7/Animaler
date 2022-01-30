@@ -12,7 +12,7 @@ import 'package:provider/provider.dart';
 import 'package:flutter_application_1/models/user.dart';
 
 
-const bool USE_EMULATOR = true;
+const bool USE_EMULATOR = false;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
