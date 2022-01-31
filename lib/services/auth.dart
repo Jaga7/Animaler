@@ -58,6 +58,7 @@ class AuthService {
       var noPictureUrl = await DatabaseService(uid: user!.uid).storage.ref().child("no_picture.png").getDownloadURL();
       noPictureUrl = noPictureUrl.toString();
       await DatabaseService(uid: user!.uid).updateModelUserData(name, gender, bio, noPictureUrl);
+      await DatabaseService(uid: user!.uid).createChatRoomsAtRegister();
       return _userFromFirebaseUser(user);
     } catch (error) {
       print(error.toString());

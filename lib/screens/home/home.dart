@@ -1,5 +1,5 @@
-import 'package:flutter_application_1/models/brew.dart';
-import 'package:flutter_application_1/screens/home/brew_list.dart';
+import 'package:flutter_application_1/models/user_profile.dart';
+import 'package:flutter_application_1/screens/home/user_profile_list.dart';
 import 'package:flutter_application_1/screens/home/settings_form.dart';
 import 'package:flutter_application_1/services/auth.dart';
 import 'package:flutter_application_1/services/database.dart';
@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 
 class Home extends StatelessWidget {
 
+  
   final AuthService _auth = AuthService();
 
   @override
@@ -22,13 +23,13 @@ class Home extends StatelessWidget {
       });
     }
 
-    return StreamProvider<List<Brew>>.value(
+    return StreamProvider<List<UserProfile>>.value(
       initialData: [],
-      value: DatabaseService().brews,
+      value: DatabaseService().userProfiles,
       child: Scaffold(
         backgroundColor: Colors.brown[50],
         appBar: AppBar(
-          title: Text('Brew Crew'),
+          title: Text('Animaler'),
           backgroundColor: Colors.brown[400],
           elevation: 0.0,
           actions: <Widget>[
@@ -46,7 +47,7 @@ class Home extends StatelessWidget {
             )
           ],
         ),
-        body: BrewList(),
+        body: UserProfileList(),
       ),
     );
   }

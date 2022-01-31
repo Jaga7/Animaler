@@ -37,7 +37,7 @@ class _RegisterState extends State<Register> {
             appBar: AppBar(
               backgroundColor: Colors.brown[400],
               elevation: 0.0,
-              title: Text('Sign up to Brew Crew'),
+              title: Text('Sign up to Animaler'),
               actions: <Widget>[
                 FlatButton.icon(
                   icon: Icon(Icons.person),
@@ -114,6 +114,7 @@ class _RegisterState extends State<Register> {
                             dynamic result =
                                 await _auth.registerWithEmailAndPassword(
                                     email, password, name, gender, bio);
+
                             if (result == null) {
                               setState(() {
                                 loading = false;
