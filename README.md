@@ -1,16 +1,13 @@
 # Animaler
 
 A new Flutter project. Tinder like app for animals created as a university project
-
-## User database structure from Firebase:
-
+## Sign-in/Register 
 ![image](https://user-images.githubusercontent.com/75665204/151787099-72fcb348-3782-450d-a811-ddc2977bfecb.png)
 ![image](https://user-images.githubusercontent.com/75665204/151787163-e0610a85-14cf-4120-aab8-ac687a25865d.png)
-
+## User database structure from Firebase:
+![picture of database structure](https://i.imgur.com/6zfMipj.png)
 
 ![gif for registraction](https://cdn.discordapp.com/attachments/894606022700859400/937401241724678194/unknown.png)
-
-![picture of database structure](https://i.imgur.com/6zfMipj.png)
 
 ## Documentation for the project:
 
