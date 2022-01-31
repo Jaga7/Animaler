@@ -9,13 +9,17 @@ A new Flutter project. Tinder like app for animals created as a university proje
 
 ![image](https://user-images.githubusercontent.com/75665204/151787928-fadc544c-0807-46a1-a50c-ec9e5e480ce0.png)
 
+## Chat database structure from Firebase:
 ![image](https://user-images.githubusercontent.com/75665204/151788503-217a0f89-5fbf-4b64-ab3a-67aa4b969571.png)
 
+## Firebase Storage:
 ![image](https://user-images.githubusercontent.com/75665204/151788676-8e24059c-adb0-4544-8c61-170c6f3613da.png)
 
 ![image](https://user-images.githubusercontent.com/75665204/151788716-a7e1bcb4-3327-4773-9a95-48cf45ad5683.png)
 
-![gif for registraction](https://cdn.discordapp.com/attachments/894606022700859400/937401241724678194/unknown.png)
+## Homescreen and update your profile:
+![image](https://user-images.githubusercontent.com/75665204/151789601-815c583e-1ed5-4972-885d-2d62b3297149.png)
+
 
 ## Documentation for the project:
 
