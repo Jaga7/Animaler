@@ -23,7 +23,7 @@ A new Flutter project. Tinder like app for animals created as a university proje
 
 ## Documentation for the project:
 
-https://drive.google.com/file/d/18WMp3Bm0eaiIqj2763T9LZPWI0FZty4Z/view?usp=sharing
+https://drive.google.com/file/d/1eAAg5uFregjoEhyBu_MxSF-_E9CdtztJ/view?usp=sharing
 
 ## Getting Started
 
