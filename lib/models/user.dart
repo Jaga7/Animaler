@@ -16,8 +16,5 @@ class ModelUserData {
 
   ModelUserData({ this.uid, required this.name, required this.gender, required this.bio, required this.profilePictureUrl });
 
-// final String sugars;
-//   final int strength;
 
-//   UserData({ this.uid, this.sugars, this.strength, this.name });
 }
